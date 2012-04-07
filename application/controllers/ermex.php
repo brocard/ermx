@@ -11,13 +11,14 @@ class ermex extends CI_Controller{
 			$this->load->library('session');
 			$this->load->library('encrypt');
 			$this->load->helper('url');
+			$this->load->helper('form');
 	}
 
 	public function newaccount(){
 		log_message('debug','ermex/newaccount');
 		if($this->input->post('email')!="" && $this->input->post('password')!=""){
 			
-			
+			global $glob_mensajeExito;
 			//account information.
 			$email=strtolower($this->input->post('email'));
 			$nick=$this->input->post('nick');
@@ -31,8 +32,8 @@ class ermex extends CI_Controller{
 				//create user.
 				$this->app_model->insertUser($email,$password,$nick,$sourceip,$agent,USERTYPE_NORMAL);
 				//send confirmation email.
-				$this->mailto_user($glob_mensajeExito,"Registro en ERmex",$email);
-				$this->mailto_user("nuevo usuario: ".$email,"ERmex: nuevo usuario",ADMIN_EMAIL);
+				$this->mailto_user($glob_mensajeExito,"Registro en ERmx",$email);
+				$this->mailto_user("nuevo usuario: ".$email,"ERmx: nuevo usuario",ADMIN_EMAIL);
 				
 				//go to login.
 				redirect('?c=true#nc', 'location', 302);
@@ -99,7 +100,7 @@ class ermex extends CI_Controller{
 		//valida sesion.
 		$validsession=$this->session->userdata('USERID');
 		if(empty($validsession)){
-			log_message('debug','*No se encontró sesión');
+			log_message('error','*No se encontró sesión');
 			redirect('/loginerror', 'location', 302);
 			die();	
 		}
@@ -147,8 +148,8 @@ class ermex extends CI_Controller{
 		$this->gmap->mobile = true;
 		$this->gmap->width = 0;
 		$this->gmap->height = 0;
-		$this->gmap->enableInfoWindow();
-		$this->gmap->setInfoWindowTrigger('mouseover');
+		$this->gmap->disableInfoWindow();
+		//$this->gmap->setInfoWindowTrigger('click');
 		$this->gmap->addMarkerByAddress($addr,"Tu posicion","Doble click para registrar la posición", $tooltip="ER", $filename="");
 		$this->gmap->disableSidebar();
 		return $this->gmap;
@@ -165,11 +166,86 @@ class ermex extends CI_Controller{
 		$this->gmap->mobile = true;
 		$this->gmap->width = 0;
 		$this->gmap->height = 0;
-		$this->gmap->enableInfoWindow();
-		$this->gmap->setInfoWindowTrigger('mouseover');
+		$this->gmap->disableInfoWindow();
+		//$this->gmap->setInfoWindowTrigger('click');
 		$this->gmap->addMarkerByCoords($lon,$lat,"Tu posicion","Doble click para registrar la posición", $tooltip="ER", $filename="");
 		$this->gmap->disableSidebar();
 		return $this->gmap;
+	}
+	
+	//guarda un nuevo registro.
+	function newregistry(){
+		log_message('debug','ermex/newregistry	');
+		//valida sesion.
+		$validsession=$this->session->userdata('USERID');
+		if(empty($validsession)){
+			log_message('error','*No se encontró sesión');
+			redirect('/loginerror', 'location', 302);
+			die();	
+		}
+		$lat=$this->input->post('locLat');
+		$lon=$this->input->post('locLon');
+		$addr=$this->input->post('locAddr');
+		
+		log_message('debug',"forma de registro para: $lat x $lon x $addr"); 
+		
+		$data['sessiondata']=$this->session->all_userdata();
+		$data['username']=$this->encrypt->decode($data['sessiondata']['USERNAME']);
+		
+		if(!empty($lat) && !empty($lon)){	
+			$data['loclat']=$lat;
+			$data['loclon']=$lon;
+			$data['locaddr']=trim($addr);
+			$this->load->view('templates/header',$data);
+			$this->load->view('pages/registro',$data);
+			$this->load->view('templates/footer',$data);
+		}else{
+			log_message('error','No se recibieron coordenadas');
+			redirect('/mainmenu', 'location', 302);
+		}
+	}
+	
+	function newregistrypost(){
+		log_message('debug','ermex/newregistrypost');
+		//valida sesion.
+		$validsession=$this->session->userdata('USERID');
+		if(empty($validsession)){
+			log_message('error','*No se encontró sesión');
+			redirect('/loginerror', 'location', 302);
+			die();	
+		}
+		$lat=$this->input->post('locLat');
+		$lon=$this->input->post('locLon');
+		$addrgps=base64_decode($this->input->post('locAddr'));
+		$addruser=$this->input->post('addr');
+		$name=$this->input->post('name');
+		$type=$this->input->post('type');
+		$desc=$this->input->post('description');
+		
+		if(!empty($lat) && !empty($lon) && !empty($name) && !empty($type) ){
+			$uid=$this->encrypt->decode($this->session->userdata('USERID'));
+			$srcinfo=$_SERVER['HTTP_USER_AGENT'];
+			$resultId=$this->app_model->createNewRegistry($lat,$lon,$addrgps,$addruser,$name,$type,$desc,$uid,$srcinfo);
+			
+			$data['sessiondata']=$this->session->all_userdata();
+			$data['username']=$this->encrypt->decode($data['sessiondata']['USERNAME']);
+			$data['name']=$name;
+			$data['addr']=$addruser;
+			$data['lat']=$lat;
+			$data['lon']=$lon;
+			$data['type']=$type;
+			$data['desc']=$desc;
+			$data['addrgps']=$addrgps;
+			
+			$this->session->set_userdata('ROK',$data);
+			$this->mailto_user("Nueva er [$name] de [".$data['username']."]","nueva ERmx",ADMIN_EMAIL);
+			redirect('/registrook', 'location', 302);
+			
+		}else{
+			log_message('error','No se recibieron datos completos');
+			redirect('/mainmenu?err='.base64_encode('Datos incompletos'), 'location', 302);
+		}
+		
 	}
 }
 ?>

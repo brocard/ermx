@@ -21,6 +21,13 @@ class App_model extends CI_Model{
 				$userdata['userid']=($result->iduser);
 				$userdata['username']=($result->nick);
 				$userdata['type']=($result->type);
+				$data=array(
+				'logindate'=>date('Y-m-d H:i:s'),
+				'loginip'=>$_SERVER['REMOTE_ADDR'],
+				'loginsource'=>$_SERVER['HTTP_USER_AGENT'],
+				'user'=>$result->iduser);
+				$this->db->insert('login', $data);
+		
 			}
 			return $userdata;
 					
@@ -53,6 +60,39 @@ class App_model extends CI_Model{
 				'status'=>STATUS_ACTIVE,
 				'type'=>$type);
 		return $this->db->insert('users', $data);
+		
+	}
+	
+	public function createNewRegistry($lat,$lon,$addrgps,$addruser,$name,$type,$desc,$author,$srcinfo){
+		log_message('debug','App_model/createNewRegistry');
+		$data=array(
+			'name'=>$name,
+			'lat'=>$lat,
+			'lon'=>$lon,
+			'fulladdr'=>$addruser,
+			'description'=>$desc,
+			'georefaddr'=>$addrgps,
+			'type'=>$type,
+			'author'=>$author,
+			'device'=>$srcinfo,
+			'inputdatetime'=>date('Y-m-d H:i:s'),
+			'status'=>ER_STATUS_NEW
+		);
+		$this->db->insert('er', $data);
+		return $this->db->insert_id();
+	}
+	
+	public function getGeneralStats(){
+		$query = $this->db->get('stats');
+		$result=$query->row_array();
+		return $result;
+	}
+	
+	public function recpass($email,$newpass){
+		$data=array(	
+			'password'=>md5($newpass),
+		);	
+		$this->db->update('users', $data, "email = '$email'");
 		
 	}
 

@@ -5,7 +5,7 @@
 class Pages extends CI_Controller{
 	
 	public function view($page='home'){
-			
+		$this->load->model('app_model');	
 		$this->load->helper('url');
 		$this->load->helper('form');
 		$this->load->library('session');
@@ -18,11 +18,33 @@ class Pages extends CI_Controller{
 		}
 		
 		$data['title']=ucfirst($page);
-		if($page=="home" || $page=="loginerror" || $page=="nuevacuenta"){
-			$this->session->sess_destroy();
+		if($page=="home" || $page=="recpass" || $page=="loginerror" || $page=="nuevacuenta"){
+			
+			
+			$stats=$this->app_model->getGeneralStats();
+			
+			$data['stats_er']=$stats['total_er'];
+			$data['stats_usr']=$stats['total_usr'];
+			
+						
+			$validsession=$this->session->userdata('USERID');
+			if(!empty($validsession)){
+				$data['sessiondata']=$this->session->all_userdata();
+				$data['username']=$this->encrypt->decode($data['sessiondata']['USERNAME']);
+			}
+			
+			//$this->session->sess_destroy();
 			$this->load->view('templates/headerhome',$data);
 			$this->load->view('pages/'.$page,$data);
-			$this->load->view('templates/footer',$data);	
+			$this->load->view('templates/footer',$data);
+			
+			
+				
+		}elseif($page=="logoff" ){
+			$this->session->sess_destroy();
+			$this->load->view('templates/headerhome',$data);
+			$this->load->view('pages/logoff',$data);
+			$this->load->view('templates/footer',$data);
 		}else{
 			
 			$validsession=$this->session->userdata('USERID');

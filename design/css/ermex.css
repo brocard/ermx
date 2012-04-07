@@ -20,3 +20,11 @@
 .mapcanvas img {
     max-width: none;
 }
+
+.addr{
+	font-style:italic;
+}
+.addrval{
+	font-style:italic;
+	color:#000;
+}

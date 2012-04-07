@@ -4,13 +4,20 @@
 define('STATUS_ACTIVE', 1);
 define('STATUS_INACTIVE', 0);
 
+define('ER_STATUS_NEW',0);
+define('ER_STATUS_CONFIRMED',1);
+define('ER_STATUS_REJECTED',3);
+
+
 
 define('USERTYPE_NORMAL', 0);
 define('USERTYPE_ADMIN', 1);
 
-define('_SEND_EMAILS_', 0);
+define('_SEND_EMAILS_', 1);
 
 define('ADMIN_EMAIL','carlos@metistd.com');
+define('_MAIL_FROM_ADDR_','ermx@metistd.com');
+define('_MAIL_FROM_NAME_','ERmx soporte');
 
 $glob_mensajeExito='<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -22,12 +29,34 @@ $glob_mensajeExito='<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//E
 <body>
 <div class="container">
 <div class="hero-unit">
-<h1 style="color:#F00">ERmex</h1>
+<h1 style="color:#F00">ERmx</h1>
 <h2>Gracias por registrarte</h2>
 <p>Ahora podrás registrar las salas de emergencia que conoces y compartirlas con el mundo.</p>
 <br/>
 <br/>
-www.metistd.com/ermex
+ermx.metistd.com
+</div>
+</div>
+</body>
+</html>';
+
+
+$glob_recpassmsg='<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ERmex</title>
+<link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="container">
+<div class="hero-unit">
+<h1 style="color:#F00">ERmx</h1>
+<h2>Recuperación de Password</h2>
+<p>Tu nuevo password es: %s</p>
+<br/>
+<br/>
+ermx.metistd.com
 </div>
 </div>
 </body>

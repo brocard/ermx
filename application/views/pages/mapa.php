@@ -2,30 +2,44 @@
 <?php echo $headermap; ?>
   <div class="row-fluid">
     <div class="span12">
-      <div><img src="<?=base_url()?>/design/img/miniermex.png" alt="ERmx"></div>
-      <div class="alert alert-info separaForma">
-        <h2 class="alert-info"><?=$username; ?>, registrando una sala</h2>
-        <p>Para registrar haz doble click o doble toque en el marcardor.</p> 
+      <div class="alert alert-info">
+      	<div><a href="<?=base_url()?>index.php"><img src="<?=base_url()?>/design/img/miniermex.png" alt="ERmx"></a> beta</div>
+        <h3 class="alert-info"><?=$username; ?>, estás cerca de: </h3>
+        <h4 class="addr" id="domicilio"></h4>
+        <?php
+			$attributes = array('id' => 'newregistry', 'name'=>"newregistry");
+			echo form_open('ermex/newregistry', $attributes);
+		?>
+        	<input type="hidden" id="locLat" name="locLat" value="" />
+            <input type="hidden" id="locLon" name="locLon" value="" />
+            <input type="hidden" id="locAddr" name="locAddr" value="" />
+            <br />
+            <button type="submit" class="btn btn-primary" id="registry" name="registry" value="true">Registrar</button>
+            <a class="btn btn-warning" id="back" href="<?=base_url()?>index.php/mainmenu">Regresar</a>
+        </form>
       </div>
     </div>
   </div>
-<?php echo $onload; ?>
+<?php echo $onload; ?> 
 <?php echo $map; ?>
-<p id="domicilio"></p>
+
 <script type="application/javascript">
 
 var geocoder = new google.maps.Geocoder();
 
 var dblClickHandler = function( lat , lon, target){
 	//show address in var.
-	alert("dblclick handler");
+	
 	var latlng = new google.maps.LatLng(lat, lon);
     geocoder.geocode({'latLng': latlng}, function(results, status){
 		 
 		if (status == google.maps.GeocoderStatus.OK) {
 			if (results[1]) {
-			  $('#domicilio').html('Domicilio: '+results[1].formatted_address);
-			   alert('Domicilio: '+results[1].formatted_address);
+			  $('#domicilio').html(results[1].formatted_address);
+			  $('#locLat').attr('value',lat);
+			  $('#locLon').attr('value',lon);
+			  $('#locAddr').attr('value',results[1].formatted_address);
+			  
 			}
 		  } else {
 			alert("Geocoder failed due to: " + status);
@@ -37,22 +51,19 @@ var dblClickHandler = function( lat , lon, target){
 
 var endDragHandler = function( lat , lon, target){
 	var latlng = new google.maps.LatLng(lat, lon);
-    geocoder.geocode({'latLng': latlng}, addAddressToMapWindow(results, status));
+    geocoder.geocode({'latLng': latlng}, function(results, status){
+		 
+		if (status == google.maps.GeocoderStatus.OK) {
+			if (results[1]) {
+			  $('#domicilio').html(results[1].formatted_address);
+			  $('#locLat').attr('value',lat);
+			  $('#locLon').attr('value',lon);
+			  $('#locAddr').attr('value',results[1].formatted_address); 
+			}
+		  } else {
+			alert("Geocoder failed due to: " + status);
+		  }
+	});
 }
 
-
-
-var addAddressToMapWindow=function(results, status)
-{
-	 
-	if (status == google.maps.GeocoderStatus.OK) {
-        if (results[1]) {
-          $('#domicilio').html('Domicilio: '+results[1].formatted_address);
-          infowindow.setContent(results[1].formatted_address);
-          infowindow.open(map, marker);
-        }
-      } else {
-        alert("Geocoder failed due to: " + status);
-      }
-}
 </script>

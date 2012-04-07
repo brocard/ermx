@@ -46,12 +46,15 @@ $route['404_override'] = '';
 //FUNCIONES DE SEGURIDAD.
 $route['security'] = 'security';
 $route['security/login'] = 'security/login';
+$route['security/recpass']='security/recpass';
 
 //FUNCIONES DE ERMEX.
 $route['ermex'] = 'security';
 $route['ermex/newacc'] = 'ermex/newaccount';
 $route['ermex/mainmenunewloc']='ermex/mainmenunewloc';
 $route['ermex/mapLocator']='ermex/mapLocator';
+$route['ermex/newregistry']='ermex/newregistry';
+$route['ermex/newregistrypost']='ermex/newregistrypost';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

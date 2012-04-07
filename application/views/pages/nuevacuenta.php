@@ -1,8 +1,8 @@
   <div class="row-fluid">
     <div class="span8">
-      <div><img src="<?=base_url()?>/design/img/miniermex.png" alt="ERmx"></div>
+      <div><a href="<?=base_url()?>index.php"><img src="<?=base_url()?>/design/img/miniermex.png" alt="ERmx"></a> beta</div>
       <div class="alert alert-info separaForma">
-        <h2 class="alert-info">Crea una cuenta</h2>
+        <h2 class="alert-info">Crea una nueva cuenta</h2>
         <div class="row-fluid">
           <div class="span8 offset1">
             <?php
@@ -60,7 +60,7 @@
 				
 				});
             </script>
-            <small>Tu información será manejada con la más estricta confidencialidad. El objectivo de este servicio es ayudar no lucrar.</small>
+            <small>Tu información será manejada con la más estricta confidencialidad. El objectivo de este servicio es ayudar. No tenemos fines de lucro.</small>
           </div>
         </div>
         

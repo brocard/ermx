@@ -1,7 +1,8 @@
+ <?php $this->session->unset_userdata('ROK');?>
  <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
   <div class="row-fluid">
     <div class="span10">
-      <div><img src="<?=base_url()?>/design/img/miniermex.png" alt="ERmx"></div>
+      <div><a href="<?=base_url()?>index.php"><img src="<?=base_url()?>/design/img/miniermex.png" alt="ERmx"></a> beta</div>
       <div class="alert alert-info separaForma">
         <h2 class="alert-info"><?=$username; ?>, registrando una sala</h2>
         <div class="row-fluid">
@@ -12,12 +13,12 @@
 			?>
             <label><strong>Domicilio:</strong></label> 
             <input name="address" type="text" class="span6" value="">
+            <button type="submit" class="btn btn-info" id="findaddr" name="findaddr" value="true">Buscar domicilio</button>
             <button type="submit" class="btn btn-info" id="findme" name="findme" value="true">Cerca de mí</button> 
-			<button type="submit" class="btn btn-info" id="findaddr" name="findaddr" value="true">Buscar domicilio</button>
             <input type="hidden" name="mylocLat" id="mylocLat" value=''>
             <input type="hidden" name="mylocLon" id="mylocLon" value=''>
             </form>
-            <div><a class="btn btn-success">Mis estadísticas</a></div>
+            <div><!--a class="btn btn-success">Mis estadísticas</a --></div>
           </div>
           
         </div>

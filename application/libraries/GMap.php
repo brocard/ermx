@@ -2015,6 +2015,8 @@ class Gmap {
 				((isset($_marker["openers"])&&count($_marker["openers"])>0)?json_encode($_marker["openers"]):"''")
             ) . "\n";
         }
+		//carlos olmos: event for initial address description.
+		$_output .=sprintf("dblClickHandler(%s , %s, null);\n",$_marker['lat'],$_marker['lon']);
         
         if($this->marker_clusterer && $pano==false){//only do marker clusterer for map, not streetview
         	$_output .= "

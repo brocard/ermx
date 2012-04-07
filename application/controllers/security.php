@@ -48,6 +48,45 @@ class Security extends CI_Controller{
 			}
 						
 	}
+	
+	
+	public function recpass(){
+		$this->load->helper('form');
+		global $glob_recpassmsg;
+		$usuario=$this->input->post('email');
+		log_message('info','security/recpass');
+		
+		if($this->app_model->userExist($usuario)){
+			$newpass=substr(microtime()." ",0,6);
+			$this->app_model->recpass($usuario,$newpass);
+			$data['msg']="Una nueva constraseña ha sido enviada a su correo electrónico.";
+			
+			$msgRecpass=sprintf($glob_recpassmsg,$newpass);
+			$this->mailto_user($msgRecpass,"Nuevo Password en ERmx",$usuario);
+		}else{
+			
+			$data['msg']="No se ha encontrado ningún registro con ese correo electrónico.";
+		}
+		$this->load->view('templates/header',$data);
+		$this->load->view('pages/recpass',$data);
+		$this->load->view('templates/footer',$data);
+			
+	}
+	
+	//SENDMAIL TO USER.
+	function mailto_user($message,$subject,$to){
+		
+		if(_SEND_EMAILS_==1){
+			$this->load->library('email');
+			$this->email->from(_MAIL_FROM_ADDR_, _MAIL_FROM_NAME_);
+			$this->email->to($to);
+			$this->email->subject($subject);
+			$this->email->message($message);
+			$this->email->send();
+			//echo $this->email->print_debugger();
+			//die();
+		}
+	}
 
 }
 ?>
