@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>erMex</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- Le styles -->
+<link href="../css/bootstrap.css" rel="stylesheet">
+<link href="../css/bootstrap-responsive.css" rel="stylesheet">
+<link href="../css/ermex.css" rel="stylesheet">
+<style>
+body {
+	padding-top: 5px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+</style>
+</head>
+<body>
+
+<!-- container -->
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span10">
+      <div><img src="../img/ermex.png" width="323" height="88" alt="ERmx"></div>
+      <h1>Localiza las salas de emergencia del país y compártelo con el mundo</h1>
+      
+      <div class="alert alert-error separaForma">
+        <h2 class="alert-error">Busca una sala</h2>
+        <div class="row-fluid">
+          <div class="span8 offset1">
+            <p class="subtitle">En base a tu posición geográfica</p>
+            <a class="btn btn-large btn-danger" href="buscar.html">Busca cerca de mí</a> 
+          </div>
+        </div>
+        <div class="row-fluid separaForma">
+         <div class="span8 offset1">
+            <p class="subtitle">o ingresa la dirección que desees</p>
+            <form action="buscar.html">
+              <input name="address" type="text" class="span6" placeholder="dirección">
+              <br/>
+              <button type="submit" class="btn btn-large btn-danger">Buscar</button>
+            </form>
+          </div>
+          
+        </div>
+      </div>
+      <div class="alert alert-info">
+        <h2 class="alert-info">Registra una sala</h2>
+        <div class="row-fluid">
+          <div class="span6 offset1">
+            <form action="registrar.html">
+              <div class="input-prepend">
+                <span class="add-on"><i class="icon-envelope"></i></span><input name="user"  id="prependedInput" size="16" type="text" placeholder="email">
+              </div> 
+              <div class="input-prepend"><span class="add-on"><i class="icon-lock"></i></span><input name="password" size="16" type="password"  placeholder="password">
+            	</div>
+             <button type="submit" class="btn btn-large btn-info">Ingresa</button> 
+            
+            </form>
+            <a href="recpass.html">Recuperar mi password</a>
+          </div>
+          <div class="span4">
+           <p><strong>Si no tienes una cuenta</strong></p>
+           <a href="nuevacuenta.html" class="btn btn-large btn-success">Regístrate</a>
+          </div>
+        </div>
+      </div>
+      <!-- /hero-unit --> 
+      
+    </div>
+  </div>
+</div>
+<!-- /container -->
+
+<footer>
+  <center>
+    <p>&copy; Metis Studio. 2012</p>
+  </center>
+  <!-- diseñado por Metis Studio --> 
+</footer>
+</div>
+<!-- ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script src="../js/jquery-1.7.1.min.js"></script> 
+<script src="../js/bootstrap-transition.js"></script> 
+<script src="../js/bootstrap-alert.js"></script> 
+<script src="../js/bootstrap-modal.js"></script> 
+<script src="../js/bootstrap-dropdown.js"></script> 
+<script src="../js/bootstrap-scrollspy.js"></script> 
+<script src="../js/bootstrap-tab.js"></script> 
+<script src="../js/bootstrap-tooltip.js"></script> 
+<script src="../js/bootstrap-popover.js"></script> 
+<script src="../js/bootstrap-button.js"></script> 
+<script src="../js/bootstrap-collapse.js"></script> 
+<script src="../js/bootstrap-carousel.js"></script> 
+<script src="../js/bootstrap-typeahead.js"></script>
+</body>
+</html>

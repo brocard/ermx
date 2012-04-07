@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.separaForma{
+	margin-top:10px;
+}
+.subtitle{
+	color:#666;
+}
+.error{
+	color:#F00;
+}
+
+.mapcanvas{
+	width:100%;
+	min-height:400px;
+	max-height:100%;
+	
+}
+.mapcanvas img {
+    max-width: none;
+}

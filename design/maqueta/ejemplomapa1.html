@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+<script src="http://192.168.1.104:10088/ermex/portal//design/js/jquery-1.7.1.min.js"></script> 
+</head>
+<body onLoad="findthisdevice();">
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
+<script type="text/javascript" src="https://code.google.com/apis/gears/gears_init.js"></script>
+	<!-- <a class="btn btn-info" href="#" id="findme">Busca cerca de mí</a>  -->
+    
+  <div id="map_canvas" style="width:100%; height:100%"></div>
+  
+   <script type="application/javascript">
+  	$(document).ready(function() {
+	
+		$('#findme').live('click', function(e) {
+			
+			console.log('buscandote en el mapa');
+			findthisdevice();	
+					
+		});
+		
+	});
+	var initialLocation;
+	var siberia = new google.maps.LatLng(60, 105);
+	var newyork = new google.maps.LatLng(40.69847032728747, -73.9514422416687);
+	var browserSupportFlag =  new Boolean();
+
+    var findthisdevice=function(){
+		var myOptions = {
+		zoom: 16,
+		mapTypeId: google.maps.MapTypeId.ROADMAP
+	  };
+	  var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+	  
+	  // Try W3C Geolocation (Preferred)
+	  if(navigator.geolocation) {
+		browserSupportFlag = true;
+		navigator.geolocation.getCurrentPosition(function(position) {
+		  initialLocation = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+		  map.setCenter(initialLocation);
+		}, function() {
+		  handleNoGeolocation(browserSupportFlag);
+		});
+	  // Try Google Gears Geolocation
+	  } else if (google.gears) {
+		browserSupportFlag = true;
+		var geo = google.gears.factory.create('beta.geolocation');
+		geo.getCurrentPosition(function(position) {
+		  initialLocation = new google.maps.LatLng(position.latitude,position.longitude);
+		  map.setCenter(initialLocation);
+		}, function() {
+		  handleNoGeoLocation(browserSupportFlag);
+		});
+	  // Browser doesn't support Geolocation
+	  } else {
+		browserSupportFlag = false;
+		handleNoGeolocation(browserSupportFlag);
+	  }
+	  // creates a draggable marker to the given coords
+	var myMarker = new google.maps.Marker({
+		position: new google.maps.LatLng(defaultLat, defaultLng),
+		draggable: myMarkerIsDraggable
+	});
+	 
+	// adds a listener to the marker
+	// gets the coords when drag event ends
+	// then updates the input with the new coords
+	google.maps.event.addListener(myMarker, 'dragend', function(evt){
+		//document.getElementById('latitude').value = evt.latLng.lat().toFixed(myCoordsLenght);
+		//document.getElementById('longitude').value = evt.latLng.lng().toFixed(myCoordsLenght);
+		alert(evt.latLng.lat().toFixed(myCoordsLenght) +" x "+ evt.latLng.lng().toFixed(myCoordsLenght));
+	});
+	 
+	// centers the map on markers coords
+	map.setCenter(myMarker.position);
+	 
+	// adds the marker on the map
+	myMarker.setMap(map);
+	
+	  function handleNoGeolocation(errorFlag) {
+		if (errorFlag == true) {
+		  alert("Geolocation service failed.");
+		  initialLocation = newyork;
+		} else {
+		  alert("Your browser doesn't support geolocation. We've placed you in Siberia.");
+		  initialLocation = siberia;
+		}
+		map.setCenter(initialLocation);
+	  }
+	}
+  
+  </script>
+</body>
+</html>
