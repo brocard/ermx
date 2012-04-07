@@ -19,13 +19,16 @@
             <input type="hidden" name="mylocLon" id="mylocLon" value=''>
             </form>
             <div><!--a class="btn btn-success">Mis estadísticas</a --></div>
-          </div>
-          
+          </div>    
         </div>
-        
-       
       </div>
-    
+      <div class="alert separaForma">
+      <div class="row-fluid">
+          <div class="span8 offset1">
+          	<a href="<?=base_url()?>index.php/ermex/listado" class="btn btn-success">¿quieres revisar la lista de salas registradas?</a>
+          </div>
+      </div>
+      </div>
       
     </div>
   </div>

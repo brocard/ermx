@@ -40,7 +40,7 @@
       
       <div class="row-fluid">
       <div class="span4 offset1">
-      <div class="alert alert-success separaForma"><?=$stats_er?> salas registradas y <?=$stats_usr?> personas participando</div>
+      <div class="alert alert-success separaForma">Llevamos: <?=$stats_er?> salas  y <?=$stats_usr?> personas</div>
       </div>
       <div class="span4 offset1">
       <div class="alert alert-success separaForma">Ayúdanos a mejorar: <a href="https://twitter.com/ermx1" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @ermx1</a>
@@ -79,7 +79,7 @@
             
              <?php }else { ?>
              <!-- usuario logeado -->
-             	<a href="index.php/mainmenu" class="btn btn-large btn-primary">Buscar una nueva sala</a>
+             	<a href="index.php/mainmenu" class="btn btn-large btn-primary">Registra una nueva sala</a>
                 <br/>
                 <br />
                 <a href="index.php/logoff" class="btn btn-large btn-info">Cerrar sesión</a>

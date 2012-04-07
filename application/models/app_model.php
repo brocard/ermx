@@ -95,6 +95,12 @@ class App_model extends CI_Model{
 		$this->db->update('users', $data, "email = '$email'");
 		
 	}
+	
+	public function fullList(){
+		$query = $this->db->query('select er.name,er.fulladdr,er.type,users.nick as author from er left join users on (er.author=users.iduser) where er.status<3');
+		$result=$query->result();
+		return $result;
+	}
 
 }
 

@@ -25,5 +25,6 @@
 <script src="<?=base_url()?>/design/js/bootstrap-collapse.js"></script> 
 <script src="<?=base_url()?>/design/js/bootstrap-carousel.js"></script> 
 <script src="<?=base_url()?>/design/js/bootstrap-typeahead.js"></script>
+
 </body>
 </html>

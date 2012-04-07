@@ -55,6 +55,7 @@ $route['ermex/mainmenunewloc']='ermex/mainmenunewloc';
 $route['ermex/mapLocator']='ermex/mapLocator';
 $route['ermex/newregistry']='ermex/newregistry';
 $route['ermex/newregistrypost']='ermex/newregistrypost';
+$route['ermex/listado']='ermex/listado';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

@@ -4307,3 +4307,848 @@ DEBUG - 2012-04-07 02:16:37 --> File loaded: application/views/pages/mainmenu.ph
 DEBUG - 2012-04-07 02:16:37 --> File loaded: application/views/templates/footer.php
 DEBUG - 2012-04-07 02:16:37 --> Final output sent to browser
 DEBUG - 2012-04-07 02:16:37 --> Total execution time: 0.0119
+DEBUG - 2012-04-07 02:36:25 --> Config Class Initialized
+DEBUG - 2012-04-07 02:36:25 --> Hooks Class Initialized
+DEBUG - 2012-04-07 02:36:25 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 02:36:25 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 02:36:25 --> URI Class Initialized
+DEBUG - 2012-04-07 02:36:25 --> Router Class Initialized
+DEBUG - 2012-04-07 02:36:25 --> No URI present. Default controller set.
+DEBUG - 2012-04-07 02:36:25 --> Output Class Initialized
+DEBUG - 2012-04-07 02:36:25 --> Security Class Initialized
+DEBUG - 2012-04-07 02:36:25 --> Input Class Initialized
+DEBUG - 2012-04-07 02:36:25 --> XSS Filtering completed
+DEBUG - 2012-04-07 02:36:25 --> XSS Filtering completed
+DEBUG - 2012-04-07 02:36:25 --> XSS Filtering completed
+DEBUG - 2012-04-07 02:36:25 --> CRSF cookie Set
+DEBUG - 2012-04-07 02:36:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-04-07 02:36:25 --> Language Class Initialized
+DEBUG - 2012-04-07 02:36:25 --> Loader Class Initialized
+DEBUG - 2012-04-07 02:36:25 --> Controller Class Initialized
+DEBUG - 2012-04-07 02:36:25 --> Model Class Initialized
+DEBUG - 2012-04-07 02:36:25 --> Model Class Initialized
+DEBUG - 2012-04-07 02:36:25 --> Database Driver Class Initialized
+DEBUG - 2012-04-07 02:36:25 --> Helper loaded: url_helper
+DEBUG - 2012-04-07 02:36:25 --> Helper loaded: form_helper
+DEBUG - 2012-04-07 02:36:25 --> Session Class Initialized
+DEBUG - 2012-04-07 02:36:25 --> Helper loaded: string_helper
+DEBUG - 2012-04-07 02:36:25 --> Encrypt Class Initialized
+DEBUG - 2012-04-07 02:36:25 --> Session routines successfully run
+DEBUG - 2012-04-07 02:36:25 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2012-04-07 02:36:25 --> Pages view: home
+DEBUG - 2012-04-07 02:36:25 --> File loaded: application/views/templates/headerhome.php
+DEBUG - 2012-04-07 02:36:25 --> File loaded: application/views/pages/home.php
+DEBUG - 2012-04-07 02:36:25 --> File loaded: application/views/templates/footer.php
+DEBUG - 2012-04-07 02:36:25 --> Final output sent to browser
+DEBUG - 2012-04-07 02:36:25 --> Total execution time: 0.0438
+DEBUG - 2012-04-07 03:00:16 --> Config Class Initialized
+DEBUG - 2012-04-07 03:00:16 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:00:16 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:00:16 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:00:16 --> URI Class Initialized
+DEBUG - 2012-04-07 03:00:16 --> Router Class Initialized
+DEBUG - 2012-04-07 03:00:16 --> No URI present. Default controller set.
+DEBUG - 2012-04-07 03:00:16 --> Output Class Initialized
+DEBUG - 2012-04-07 03:00:16 --> Security Class Initialized
+DEBUG - 2012-04-07 03:00:16 --> Input Class Initialized
+DEBUG - 2012-04-07 03:00:16 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:00:16 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:00:16 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:00:16 --> CRSF cookie Set
+DEBUG - 2012-04-07 03:00:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-04-07 03:00:16 --> Language Class Initialized
+DEBUG - 2012-04-07 03:00:16 --> Loader Class Initialized
+DEBUG - 2012-04-07 03:00:16 --> Controller Class Initialized
+DEBUG - 2012-04-07 03:00:16 --> Model Class Initialized
+DEBUG - 2012-04-07 03:00:16 --> Model Class Initialized
+DEBUG - 2012-04-07 03:00:16 --> Database Driver Class Initialized
+DEBUG - 2012-04-07 03:00:17 --> Helper loaded: url_helper
+DEBUG - 2012-04-07 03:00:17 --> Helper loaded: form_helper
+DEBUG - 2012-04-07 03:00:17 --> Session Class Initialized
+DEBUG - 2012-04-07 03:00:17 --> Helper loaded: string_helper
+DEBUG - 2012-04-07 03:00:17 --> Encrypt Class Initialized
+DEBUG - 2012-04-07 03:00:17 --> Session routines successfully run
+DEBUG - 2012-04-07 03:00:17 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2012-04-07 03:00:17 --> Pages view: home
+ERROR - 2012-04-07 03:00:17 --> Severity: Warning  --> include_once(analyticstracking.php): failed to open stream: No such file or directory /usr/local/zend/apache2/htdocs/ermex/ermx/application/views/templates/headerhome.php 37
+ERROR - 2012-04-07 03:00:17 --> Severity: Warning  --> include_once(): Failed opening 'analyticstracking.php' for inclusion (include_path='.:/usr/local/zend/share/ZendFramework/library:/usr/local/zend/share/pear') /usr/local/zend/apache2/htdocs/ermex/ermx/application/views/templates/headerhome.php 37
+DEBUG - 2012-04-07 03:00:17 --> File loaded: application/views/templates/headerhome.php
+DEBUG - 2012-04-07 03:00:17 --> File loaded: application/views/pages/home.php
+DEBUG - 2012-04-07 03:00:17 --> File loaded: application/views/templates/footer.php
+DEBUG - 2012-04-07 03:00:17 --> Final output sent to browser
+DEBUG - 2012-04-07 03:00:17 --> Total execution time: 0.3326
+DEBUG - 2012-04-07 03:01:33 --> Config Class Initialized
+DEBUG - 2012-04-07 03:01:33 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:01:33 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:01:33 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:01:33 --> URI Class Initialized
+DEBUG - 2012-04-07 03:01:33 --> Router Class Initialized
+DEBUG - 2012-04-07 03:01:33 --> No URI present. Default controller set.
+DEBUG - 2012-04-07 03:01:33 --> Output Class Initialized
+DEBUG - 2012-04-07 03:01:33 --> Security Class Initialized
+DEBUG - 2012-04-07 03:01:33 --> Input Class Initialized
+DEBUG - 2012-04-07 03:01:33 --> CRSF cookie Set
+DEBUG - 2012-04-07 03:01:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-04-07 03:01:33 --> Language Class Initialized
+DEBUG - 2012-04-07 03:01:33 --> Loader Class Initialized
+DEBUG - 2012-04-07 03:01:33 --> Controller Class Initialized
+DEBUG - 2012-04-07 03:01:33 --> Model Class Initialized
+DEBUG - 2012-04-07 03:01:33 --> Model Class Initialized
+DEBUG - 2012-04-07 03:01:33 --> Database Driver Class Initialized
+DEBUG - 2012-04-07 03:01:33 --> Helper loaded: url_helper
+DEBUG - 2012-04-07 03:01:33 --> Helper loaded: form_helper
+DEBUG - 2012-04-07 03:01:33 --> Session Class Initialized
+DEBUG - 2012-04-07 03:01:33 --> Helper loaded: string_helper
+DEBUG - 2012-04-07 03:01:33 --> Encrypt Class Initialized
+DEBUG - 2012-04-07 03:01:33 --> A session cookie was not found.
+DEBUG - 2012-04-07 03:01:33 --> Session routines successfully run
+DEBUG - 2012-04-07 03:01:33 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2012-04-07 03:01:33 --> Pages view: home
+DEBUG - 2012-04-07 03:01:33 --> File loaded: application/views/templates/headerhome.php
+DEBUG - 2012-04-07 03:01:33 --> File loaded: application/views/pages/home.php
+DEBUG - 2012-04-07 03:01:33 --> File loaded: application/views/templates/footer.php
+DEBUG - 2012-04-07 03:01:33 --> Final output sent to browser
+DEBUG - 2012-04-07 03:01:33 --> Total execution time: 0.0143
+DEBUG - 2012-04-07 03:02:27 --> Config Class Initialized
+DEBUG - 2012-04-07 03:02:27 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:02:27 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:02:27 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:02:27 --> URI Class Initialized
+DEBUG - 2012-04-07 03:02:27 --> Router Class Initialized
+DEBUG - 2012-04-07 03:02:27 --> No URI present. Default controller set.
+DEBUG - 2012-04-07 03:02:27 --> Output Class Initialized
+DEBUG - 2012-04-07 03:02:27 --> Security Class Initialized
+DEBUG - 2012-04-07 03:02:27 --> Input Class Initialized
+DEBUG - 2012-04-07 03:02:27 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:02:27 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:02:27 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:02:27 --> CRSF cookie Set
+DEBUG - 2012-04-07 03:02:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-04-07 03:02:27 --> Language Class Initialized
+DEBUG - 2012-04-07 03:02:27 --> Loader Class Initialized
+DEBUG - 2012-04-07 03:02:27 --> Controller Class Initialized
+DEBUG - 2012-04-07 03:02:27 --> Model Class Initialized
+DEBUG - 2012-04-07 03:02:28 --> Model Class Initialized
+DEBUG - 2012-04-07 03:02:28 --> Database Driver Class Initialized
+DEBUG - 2012-04-07 03:02:28 --> Helper loaded: url_helper
+DEBUG - 2012-04-07 03:02:28 --> Helper loaded: form_helper
+DEBUG - 2012-04-07 03:02:28 --> Session Class Initialized
+DEBUG - 2012-04-07 03:02:28 --> Helper loaded: string_helper
+DEBUG - 2012-04-07 03:02:28 --> Encrypt Class Initialized
+DEBUG - 2012-04-07 03:02:28 --> Session routines successfully run
+DEBUG - 2012-04-07 03:02:28 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2012-04-07 03:02:28 --> Pages view: home
+DEBUG - 2012-04-07 03:02:28 --> File loaded: application/views/templates/headerhome.php
+DEBUG - 2012-04-07 03:02:28 --> File loaded: application/views/pages/home.php
+DEBUG - 2012-04-07 03:02:28 --> File loaded: application/views/templates/footer.php
+DEBUG - 2012-04-07 03:02:28 --> Final output sent to browser
+DEBUG - 2012-04-07 03:02:28 --> Total execution time: 0.0161
+DEBUG - 2012-04-07 03:02:45 --> Config Class Initialized
+DEBUG - 2012-04-07 03:02:45 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:02:45 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:02:45 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:02:45 --> URI Class Initialized
+DEBUG - 2012-04-07 03:02:45 --> Router Class Initialized
+DEBUG - 2012-04-07 03:02:45 --> Output Class Initialized
+DEBUG - 2012-04-07 03:02:45 --> Security Class Initialized
+DEBUG - 2012-04-07 03:02:45 --> Input Class Initialized
+DEBUG - 2012-04-07 03:02:45 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:02:45 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:02:45 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:02:45 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:02:45 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:02:45 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:02:45 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:02:45 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:02:45 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:02:45 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:02:53 --> Config Class Initialized
+DEBUG - 2012-04-07 03:02:53 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:02:53 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:02:53 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:02:53 --> URI Class Initialized
+DEBUG - 2012-04-07 03:02:53 --> Router Class Initialized
+DEBUG - 2012-04-07 03:02:53 --> Output Class Initialized
+DEBUG - 2012-04-07 03:02:53 --> Security Class Initialized
+DEBUG - 2012-04-07 03:02:53 --> Input Class Initialized
+DEBUG - 2012-04-07 03:02:53 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:02:53 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:02:53 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:02:53 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:02:53 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:02:53 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:02:53 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:02:53 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:02:53 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:02:53 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:03:56 --> Config Class Initialized
+DEBUG - 2012-04-07 03:03:56 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:03:56 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:03:56 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:03:56 --> URI Class Initialized
+DEBUG - 2012-04-07 03:03:56 --> Router Class Initialized
+DEBUG - 2012-04-07 03:03:56 --> Output Class Initialized
+DEBUG - 2012-04-07 03:03:56 --> Security Class Initialized
+DEBUG - 2012-04-07 03:03:56 --> Input Class Initialized
+DEBUG - 2012-04-07 03:03:56 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:03:56 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:03:56 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:03:56 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:03:56 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:03:56 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:03:56 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:03:56 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:03:56 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:03:56 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:04:00 --> Config Class Initialized
+DEBUG - 2012-04-07 03:04:00 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:04:00 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:04:00 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:04:00 --> URI Class Initialized
+DEBUG - 2012-04-07 03:04:00 --> Router Class Initialized
+DEBUG - 2012-04-07 03:04:00 --> No URI present. Default controller set.
+DEBUG - 2012-04-07 03:04:00 --> Output Class Initialized
+DEBUG - 2012-04-07 03:04:00 --> Security Class Initialized
+DEBUG - 2012-04-07 03:04:00 --> Input Class Initialized
+DEBUG - 2012-04-07 03:04:00 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:04:00 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:04:00 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:04:00 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:04:00 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:04:00 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:04:00 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:04:00 --> CRSF cookie Set
+DEBUG - 2012-04-07 03:04:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-04-07 03:04:00 --> Language Class Initialized
+DEBUG - 2012-04-07 03:04:00 --> Loader Class Initialized
+DEBUG - 2012-04-07 03:04:00 --> Controller Class Initialized
+DEBUG - 2012-04-07 03:04:00 --> Model Class Initialized
+DEBUG - 2012-04-07 03:04:00 --> Model Class Initialized
+DEBUG - 2012-04-07 03:04:00 --> Database Driver Class Initialized
+DEBUG - 2012-04-07 03:04:00 --> Helper loaded: url_helper
+DEBUG - 2012-04-07 03:04:00 --> Helper loaded: form_helper
+DEBUG - 2012-04-07 03:04:00 --> Session Class Initialized
+DEBUG - 2012-04-07 03:04:00 --> Helper loaded: string_helper
+DEBUG - 2012-04-07 03:04:00 --> Encrypt Class Initialized
+DEBUG - 2012-04-07 03:04:00 --> Session routines successfully run
+DEBUG - 2012-04-07 03:04:00 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2012-04-07 03:04:00 --> Pages view: home
+DEBUG - 2012-04-07 03:04:00 --> File loaded: application/views/templates/headerhome.php
+DEBUG - 2012-04-07 03:04:00 --> File loaded: application/views/pages/home.php
+DEBUG - 2012-04-07 03:04:00 --> File loaded: application/views/templates/footer.php
+DEBUG - 2012-04-07 03:04:00 --> Final output sent to browser
+DEBUG - 2012-04-07 03:04:00 --> Total execution time: 0.0141
+DEBUG - 2012-04-07 03:04:02 --> Config Class Initialized
+DEBUG - 2012-04-07 03:04:02 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:04:02 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:04:02 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:04:02 --> URI Class Initialized
+DEBUG - 2012-04-07 03:04:02 --> Router Class Initialized
+DEBUG - 2012-04-07 03:04:02 --> No URI present. Default controller set.
+DEBUG - 2012-04-07 03:04:02 --> Output Class Initialized
+DEBUG - 2012-04-07 03:04:02 --> Security Class Initialized
+DEBUG - 2012-04-07 03:04:02 --> Input Class Initialized
+DEBUG - 2012-04-07 03:04:02 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:04:02 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:04:02 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:04:02 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:04:02 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:04:02 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:04:02 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:04:02 --> CRSF cookie Set
+DEBUG - 2012-04-07 03:04:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-04-07 03:04:02 --> Language Class Initialized
+DEBUG - 2012-04-07 03:04:02 --> Loader Class Initialized
+DEBUG - 2012-04-07 03:04:02 --> Controller Class Initialized
+DEBUG - 2012-04-07 03:04:02 --> Model Class Initialized
+DEBUG - 2012-04-07 03:04:02 --> Model Class Initialized
+DEBUG - 2012-04-07 03:04:02 --> Database Driver Class Initialized
+DEBUG - 2012-04-07 03:04:02 --> Helper loaded: url_helper
+DEBUG - 2012-04-07 03:04:02 --> Helper loaded: form_helper
+DEBUG - 2012-04-07 03:04:02 --> Session Class Initialized
+DEBUG - 2012-04-07 03:04:02 --> Helper loaded: string_helper
+DEBUG - 2012-04-07 03:04:02 --> Encrypt Class Initialized
+DEBUG - 2012-04-07 03:04:02 --> Session routines successfully run
+DEBUG - 2012-04-07 03:04:02 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2012-04-07 03:04:02 --> Pages view: home
+DEBUG - 2012-04-07 03:04:02 --> File loaded: application/views/templates/headerhome.php
+DEBUG - 2012-04-07 03:04:02 --> File loaded: application/views/pages/home.php
+DEBUG - 2012-04-07 03:04:02 --> File loaded: application/views/templates/footer.php
+DEBUG - 2012-04-07 03:04:02 --> Final output sent to browser
+DEBUG - 2012-04-07 03:04:02 --> Total execution time: 0.0139
+DEBUG - 2012-04-07 03:04:19 --> Config Class Initialized
+DEBUG - 2012-04-07 03:04:19 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:04:19 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:04:19 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:04:19 --> URI Class Initialized
+DEBUG - 2012-04-07 03:04:19 --> Router Class Initialized
+DEBUG - 2012-04-07 03:04:19 --> Output Class Initialized
+DEBUG - 2012-04-07 03:04:19 --> Security Class Initialized
+DEBUG - 2012-04-07 03:04:19 --> Input Class Initialized
+DEBUG - 2012-04-07 03:04:19 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:04:19 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:04:19 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:04:19 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:04:19 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:04:19 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:04:19 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:04:19 --> CRSF cookie Set
+DEBUG - 2012-04-07 03:04:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-04-07 03:04:19 --> Language Class Initialized
+DEBUG - 2012-04-07 03:04:19 --> Loader Class Initialized
+DEBUG - 2012-04-07 03:04:19 --> Controller Class Initialized
+DEBUG - 2012-04-07 03:04:19 --> Model Class Initialized
+DEBUG - 2012-04-07 03:04:19 --> Model Class Initialized
+DEBUG - 2012-04-07 03:04:19 --> Database Driver Class Initialized
+DEBUG - 2012-04-07 03:04:19 --> Helper loaded: url_helper
+DEBUG - 2012-04-07 03:04:19 --> Helper loaded: form_helper
+DEBUG - 2012-04-07 03:04:19 --> Session Class Initialized
+DEBUG - 2012-04-07 03:04:19 --> Helper loaded: string_helper
+DEBUG - 2012-04-07 03:04:19 --> Encrypt Class Initialized
+DEBUG - 2012-04-07 03:04:19 --> Session routines successfully run
+DEBUG - 2012-04-07 03:04:19 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2012-04-07 03:04:19 --> Pages view: mainmenu
+DEBUG - 2012-04-07 03:04:19 --> File loaded: application/views/templates/header.php
+DEBUG - 2012-04-07 03:04:19 --> File loaded: application/views/pages/mainmenu.php
+DEBUG - 2012-04-07 03:04:19 --> File loaded: application/views/templates/footer.php
+DEBUG - 2012-04-07 03:04:19 --> Final output sent to browser
+DEBUG - 2012-04-07 03:04:19 --> Total execution time: 0.0156
+DEBUG - 2012-04-07 03:07:16 --> Config Class Initialized
+DEBUG - 2012-04-07 03:07:16 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:07:16 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:07:16 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:07:16 --> URI Class Initialized
+DEBUG - 2012-04-07 03:07:16 --> Router Class Initialized
+DEBUG - 2012-04-07 03:07:16 --> Output Class Initialized
+DEBUG - 2012-04-07 03:07:16 --> Security Class Initialized
+DEBUG - 2012-04-07 03:07:16 --> Input Class Initialized
+DEBUG - 2012-04-07 03:07:16 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:07:16 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:07:16 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:07:16 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:07:16 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:07:16 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:07:16 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:07:16 --> CRSF cookie Set
+DEBUG - 2012-04-07 03:07:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-04-07 03:07:16 --> Language Class Initialized
+DEBUG - 2012-04-07 03:07:16 --> Loader Class Initialized
+DEBUG - 2012-04-07 03:07:16 --> Controller Class Initialized
+DEBUG - 2012-04-07 03:07:16 --> Model Class Initialized
+DEBUG - 2012-04-07 03:07:16 --> Model Class Initialized
+DEBUG - 2012-04-07 03:07:16 --> Database Driver Class Initialized
+DEBUG - 2012-04-07 03:07:16 --> Helper loaded: url_helper
+DEBUG - 2012-04-07 03:07:16 --> Helper loaded: form_helper
+DEBUG - 2012-04-07 03:07:16 --> Session Class Initialized
+DEBUG - 2012-04-07 03:07:16 --> Helper loaded: string_helper
+DEBUG - 2012-04-07 03:07:16 --> Encrypt Class Initialized
+DEBUG - 2012-04-07 03:07:16 --> Session routines successfully run
+DEBUG - 2012-04-07 03:07:16 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2012-04-07 03:07:16 --> Pages view: mainmenu
+DEBUG - 2012-04-07 03:07:16 --> File loaded: application/views/templates/header.php
+DEBUG - 2012-04-07 03:07:16 --> File loaded: application/views/pages/mainmenu.php
+DEBUG - 2012-04-07 03:07:16 --> File loaded: application/views/templates/footer.php
+DEBUG - 2012-04-07 03:07:16 --> Final output sent to browser
+DEBUG - 2012-04-07 03:07:16 --> Total execution time: 0.0173
+DEBUG - 2012-04-07 03:07:27 --> Config Class Initialized
+DEBUG - 2012-04-07 03:07:27 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:07:27 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:07:27 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:07:27 --> URI Class Initialized
+DEBUG - 2012-04-07 03:07:27 --> Router Class Initialized
+DEBUG - 2012-04-07 03:07:27 --> Output Class Initialized
+DEBUG - 2012-04-07 03:07:27 --> Security Class Initialized
+DEBUG - 2012-04-07 03:07:27 --> Input Class Initialized
+DEBUG - 2012-04-07 03:07:27 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:07:27 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:07:27 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:07:27 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:07:27 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:07:27 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:07:27 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:07:27 --> CRSF cookie Set
+DEBUG - 2012-04-07 03:07:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-04-07 03:07:27 --> Language Class Initialized
+DEBUG - 2012-04-07 03:07:27 --> Loader Class Initialized
+DEBUG - 2012-04-07 03:07:27 --> Controller Class Initialized
+DEBUG - 2012-04-07 03:07:27 --> Model Class Initialized
+DEBUG - 2012-04-07 03:07:27 --> Model Class Initialized
+DEBUG - 2012-04-07 03:07:27 --> Database Driver Class Initialized
+DEBUG - 2012-04-07 03:07:27 --> Helper loaded: url_helper
+DEBUG - 2012-04-07 03:07:27 --> Helper loaded: form_helper
+DEBUG - 2012-04-07 03:07:27 --> Session Class Initialized
+DEBUG - 2012-04-07 03:07:27 --> Helper loaded: string_helper
+DEBUG - 2012-04-07 03:07:27 --> Encrypt Class Initialized
+DEBUG - 2012-04-07 03:07:27 --> Session routines successfully run
+DEBUG - 2012-04-07 03:07:27 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2012-04-07 03:07:27 --> Pages view: mainmenu
+DEBUG - 2012-04-07 03:07:27 --> File loaded: application/views/templates/header.php
+DEBUG - 2012-04-07 03:07:27 --> File loaded: application/views/pages/mainmenu.php
+DEBUG - 2012-04-07 03:07:27 --> File loaded: application/views/templates/footer.php
+DEBUG - 2012-04-07 03:07:27 --> Final output sent to browser
+DEBUG - 2012-04-07 03:07:27 --> Total execution time: 0.0169
+DEBUG - 2012-04-07 03:07:33 --> Config Class Initialized
+DEBUG - 2012-04-07 03:07:33 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:07:33 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:07:33 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:07:33 --> URI Class Initialized
+DEBUG - 2012-04-07 03:07:33 --> Router Class Initialized
+DEBUG - 2012-04-07 03:07:33 --> Output Class Initialized
+DEBUG - 2012-04-07 03:07:33 --> Security Class Initialized
+DEBUG - 2012-04-07 03:07:33 --> Input Class Initialized
+DEBUG - 2012-04-07 03:07:33 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:07:33 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:07:33 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:07:33 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:07:33 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:07:33 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:07:33 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:07:33 --> CRSF cookie Set
+DEBUG - 2012-04-07 03:07:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-04-07 03:07:33 --> Language Class Initialized
+DEBUG - 2012-04-07 03:07:33 --> Loader Class Initialized
+DEBUG - 2012-04-07 03:07:33 --> Controller Class Initialized
+DEBUG - 2012-04-07 03:07:33 --> Model Class Initialized
+DEBUG - 2012-04-07 03:07:33 --> Model Class Initialized
+DEBUG - 2012-04-07 03:07:33 --> Database Driver Class Initialized
+DEBUG - 2012-04-07 03:07:33 --> Helper loaded: url_helper
+DEBUG - 2012-04-07 03:07:33 --> Helper loaded: form_helper
+DEBUG - 2012-04-07 03:07:33 --> Session Class Initialized
+DEBUG - 2012-04-07 03:07:33 --> Helper loaded: string_helper
+DEBUG - 2012-04-07 03:07:33 --> Encrypt Class Initialized
+DEBUG - 2012-04-07 03:07:33 --> Session routines successfully run
+DEBUG - 2012-04-07 03:07:33 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2012-04-07 03:07:33 --> Pages view: mainmenu
+DEBUG - 2012-04-07 03:07:33 --> File loaded: application/views/templates/header.php
+DEBUG - 2012-04-07 03:07:33 --> File loaded: application/views/pages/mainmenu.php
+DEBUG - 2012-04-07 03:07:33 --> File loaded: application/views/templates/footer.php
+DEBUG - 2012-04-07 03:07:33 --> Final output sent to browser
+DEBUG - 2012-04-07 03:07:33 --> Total execution time: 0.0214
+DEBUG - 2012-04-07 03:15:54 --> Config Class Initialized
+DEBUG - 2012-04-07 03:15:54 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:15:54 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:15:54 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:15:54 --> URI Class Initialized
+DEBUG - 2012-04-07 03:15:54 --> Router Class Initialized
+DEBUG - 2012-04-07 03:15:54 --> Output Class Initialized
+DEBUG - 2012-04-07 03:15:54 --> Security Class Initialized
+DEBUG - 2012-04-07 03:15:54 --> Input Class Initialized
+DEBUG - 2012-04-07 03:15:54 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:15:54 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:15:54 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:15:54 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:15:54 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:15:54 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:15:54 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:15:54 --> CRSF cookie Set
+DEBUG - 2012-04-07 03:15:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-04-07 03:15:54 --> Language Class Initialized
+DEBUG - 2012-04-07 03:15:54 --> Loader Class Initialized
+DEBUG - 2012-04-07 03:15:54 --> Controller Class Initialized
+DEBUG - 2012-04-07 03:15:54 --> Model Class Initialized
+DEBUG - 2012-04-07 03:15:54 --> Model Class Initialized
+DEBUG - 2012-04-07 03:15:54 --> Database Driver Class Initialized
+DEBUG - 2012-04-07 03:15:54 --> Helper loaded: url_helper
+DEBUG - 2012-04-07 03:15:54 --> Helper loaded: form_helper
+DEBUG - 2012-04-07 03:15:54 --> Session Class Initialized
+DEBUG - 2012-04-07 03:15:54 --> Helper loaded: string_helper
+DEBUG - 2012-04-07 03:15:54 --> Encrypt Class Initialized
+DEBUG - 2012-04-07 03:15:54 --> Session routines successfully run
+DEBUG - 2012-04-07 03:15:54 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2012-04-07 03:15:54 --> Pages view: mainmenu
+DEBUG - 2012-04-07 03:15:54 --> File loaded: application/views/templates/header.php
+DEBUG - 2012-04-07 03:15:54 --> File loaded: application/views/pages/mainmenu.php
+DEBUG - 2012-04-07 03:15:54 --> File loaded: application/views/templates/footer.php
+DEBUG - 2012-04-07 03:15:54 --> Final output sent to browser
+DEBUG - 2012-04-07 03:15:54 --> Total execution time: 0.0167
+DEBUG - 2012-04-07 03:15:59 --> Config Class Initialized
+DEBUG - 2012-04-07 03:15:59 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:15:59 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:15:59 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:15:59 --> URI Class Initialized
+DEBUG - 2012-04-07 03:15:59 --> Router Class Initialized
+DEBUG - 2012-04-07 03:15:59 --> Output Class Initialized
+DEBUG - 2012-04-07 03:15:59 --> Security Class Initialized
+DEBUG - 2012-04-07 03:15:59 --> Input Class Initialized
+DEBUG - 2012-04-07 03:15:59 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:15:59 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:15:59 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:15:59 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:15:59 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:15:59 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:15:59 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:15:59 --> CRSF cookie Set
+DEBUG - 2012-04-07 03:15:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-04-07 03:15:59 --> Language Class Initialized
+DEBUG - 2012-04-07 03:15:59 --> Loader Class Initialized
+DEBUG - 2012-04-07 03:15:59 --> Controller Class Initialized
+DEBUG - 2012-04-07 03:15:59 --> Model Class Initialized
+DEBUG - 2012-04-07 03:15:59 --> Model Class Initialized
+DEBUG - 2012-04-07 03:15:59 --> Database Driver Class Initialized
+DEBUG - 2012-04-07 03:15:59 --> Helper loaded: url_helper
+DEBUG - 2012-04-07 03:15:59 --> Helper loaded: form_helper
+DEBUG - 2012-04-07 03:15:59 --> Session Class Initialized
+DEBUG - 2012-04-07 03:15:59 --> Helper loaded: string_helper
+DEBUG - 2012-04-07 03:15:59 --> Encrypt Class Initialized
+DEBUG - 2012-04-07 03:15:59 --> Session routines successfully run
+DEBUG - 2012-04-07 03:15:59 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2012-04-07 03:15:59 --> Pages view: mainmenu
+DEBUG - 2012-04-07 03:15:59 --> File loaded: application/views/templates/header.php
+DEBUG - 2012-04-07 03:15:59 --> File loaded: application/views/pages/mainmenu.php
+DEBUG - 2012-04-07 03:15:59 --> File loaded: application/views/templates/footer.php
+DEBUG - 2012-04-07 03:15:59 --> Final output sent to browser
+DEBUG - 2012-04-07 03:15:59 --> Total execution time: 0.0159
+DEBUG - 2012-04-07 03:16:03 --> Config Class Initialized
+DEBUG - 2012-04-07 03:16:03 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:16:03 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:16:03 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:16:03 --> URI Class Initialized
+DEBUG - 2012-04-07 03:16:03 --> Router Class Initialized
+DEBUG - 2012-04-07 03:16:03 --> Output Class Initialized
+DEBUG - 2012-04-07 03:16:03 --> Security Class Initialized
+DEBUG - 2012-04-07 03:16:03 --> Input Class Initialized
+DEBUG - 2012-04-07 03:16:03 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:03 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:03 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:03 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:03 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:03 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:03 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:03 --> CRSF cookie Set
+DEBUG - 2012-04-07 03:16:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-04-07 03:16:03 --> Language Class Initialized
+DEBUG - 2012-04-07 03:16:03 --> Loader Class Initialized
+DEBUG - 2012-04-07 03:16:03 --> Controller Class Initialized
+DEBUG - 2012-04-07 03:16:03 --> Model Class Initialized
+DEBUG - 2012-04-07 03:16:03 --> Model Class Initialized
+DEBUG - 2012-04-07 03:16:03 --> Database Driver Class Initialized
+DEBUG - 2012-04-07 03:16:03 --> Helper loaded: url_helper
+DEBUG - 2012-04-07 03:16:03 --> Helper loaded: form_helper
+DEBUG - 2012-04-07 03:16:03 --> Session Class Initialized
+DEBUG - 2012-04-07 03:16:03 --> Helper loaded: string_helper
+DEBUG - 2012-04-07 03:16:03 --> Encrypt Class Initialized
+DEBUG - 2012-04-07 03:16:03 --> Session routines successfully run
+DEBUG - 2012-04-07 03:16:03 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2012-04-07 03:16:03 --> Pages view: index.php
+ERROR - 2012-04-07 03:16:03 --> 404 Page Not Found --> 
+DEBUG - 2012-04-07 03:16:26 --> Config Class Initialized
+DEBUG - 2012-04-07 03:16:26 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:16:26 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:16:26 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:16:26 --> URI Class Initialized
+DEBUG - 2012-04-07 03:16:26 --> Router Class Initialized
+DEBUG - 2012-04-07 03:16:26 --> Output Class Initialized
+DEBUG - 2012-04-07 03:16:26 --> Security Class Initialized
+DEBUG - 2012-04-07 03:16:26 --> Input Class Initialized
+DEBUG - 2012-04-07 03:16:26 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:26 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:26 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:26 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:26 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:26 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:26 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:26 --> CRSF cookie Set
+DEBUG - 2012-04-07 03:16:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-04-07 03:16:26 --> Language Class Initialized
+DEBUG - 2012-04-07 03:16:26 --> Loader Class Initialized
+DEBUG - 2012-04-07 03:16:26 --> Controller Class Initialized
+DEBUG - 2012-04-07 03:16:26 --> Model Class Initialized
+DEBUG - 2012-04-07 03:16:26 --> Model Class Initialized
+DEBUG - 2012-04-07 03:16:26 --> Database Driver Class Initialized
+DEBUG - 2012-04-07 03:16:26 --> Helper loaded: url_helper
+DEBUG - 2012-04-07 03:16:26 --> Helper loaded: form_helper
+DEBUG - 2012-04-07 03:16:26 --> Session Class Initialized
+DEBUG - 2012-04-07 03:16:26 --> Helper loaded: string_helper
+DEBUG - 2012-04-07 03:16:26 --> Encrypt Class Initialized
+DEBUG - 2012-04-07 03:16:26 --> Session routines successfully run
+DEBUG - 2012-04-07 03:16:26 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2012-04-07 03:16:26 --> Pages view: mainmenu
+DEBUG - 2012-04-07 03:16:26 --> File loaded: application/views/templates/header.php
+DEBUG - 2012-04-07 03:16:26 --> File loaded: application/views/pages/mainmenu.php
+DEBUG - 2012-04-07 03:16:26 --> File loaded: application/views/templates/footer.php
+DEBUG - 2012-04-07 03:16:26 --> Final output sent to browser
+DEBUG - 2012-04-07 03:16:26 --> Total execution time: 0.0160
+DEBUG - 2012-04-07 03:16:29 --> Config Class Initialized
+DEBUG - 2012-04-07 03:16:29 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:16:29 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:16:29 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:16:29 --> URI Class Initialized
+DEBUG - 2012-04-07 03:16:29 --> Router Class Initialized
+DEBUG - 2012-04-07 03:16:29 --> Output Class Initialized
+DEBUG - 2012-04-07 03:16:29 --> Security Class Initialized
+DEBUG - 2012-04-07 03:16:29 --> Input Class Initialized
+DEBUG - 2012-04-07 03:16:29 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:29 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:29 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:29 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:29 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:29 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:29 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:29 --> CRSF cookie Set
+DEBUG - 2012-04-07 03:16:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-04-07 03:16:29 --> Language Class Initialized
+DEBUG - 2012-04-07 03:16:29 --> Loader Class Initialized
+DEBUG - 2012-04-07 03:16:29 --> Controller Class Initialized
+DEBUG - 2012-04-07 03:16:29 --> Model Class Initialized
+DEBUG - 2012-04-07 03:16:29 --> Model Class Initialized
+DEBUG - 2012-04-07 03:16:29 --> Database Driver Class Initialized
+DEBUG - 2012-04-07 03:16:29 --> Session Class Initialized
+DEBUG - 2012-04-07 03:16:29 --> Helper loaded: string_helper
+DEBUG - 2012-04-07 03:16:29 --> Encrypt Class Initialized
+DEBUG - 2012-04-07 03:16:29 --> Session routines successfully run
+DEBUG - 2012-04-07 03:16:29 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2012-04-07 03:16:29 --> Helper loaded: url_helper
+DEBUG - 2012-04-07 03:16:29 --> Helper loaded: form_helper
+DEBUG - 2012-04-07 03:16:29 --> ermex/listado	
+DEBUG - 2012-04-07 03:16:29 --> DB Transaction Failure
+ERROR - 2012-04-07 03:16:29 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''3'' at line 3
+DEBUG - 2012-04-07 03:16:29 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2012-04-07 03:16:45 --> Config Class Initialized
+DEBUG - 2012-04-07 03:16:45 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:16:45 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:16:45 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:16:45 --> URI Class Initialized
+DEBUG - 2012-04-07 03:16:45 --> Router Class Initialized
+DEBUG - 2012-04-07 03:16:45 --> Output Class Initialized
+DEBUG - 2012-04-07 03:16:45 --> Security Class Initialized
+DEBUG - 2012-04-07 03:16:45 --> Input Class Initialized
+DEBUG - 2012-04-07 03:16:45 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:45 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:45 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:45 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:45 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:45 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:45 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:16:45 --> CRSF cookie Set
+DEBUG - 2012-04-07 03:16:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-04-07 03:16:45 --> Language Class Initialized
+DEBUG - 2012-04-07 03:16:45 --> Loader Class Initialized
+DEBUG - 2012-04-07 03:16:45 --> Controller Class Initialized
+DEBUG - 2012-04-07 03:16:45 --> Model Class Initialized
+DEBUG - 2012-04-07 03:16:45 --> Model Class Initialized
+DEBUG - 2012-04-07 03:16:45 --> Database Driver Class Initialized
+DEBUG - 2012-04-07 03:16:45 --> Session Class Initialized
+DEBUG - 2012-04-07 03:16:45 --> Helper loaded: string_helper
+DEBUG - 2012-04-07 03:16:45 --> Encrypt Class Initialized
+DEBUG - 2012-04-07 03:16:45 --> Session routines successfully run
+DEBUG - 2012-04-07 03:16:45 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2012-04-07 03:16:45 --> Helper loaded: url_helper
+DEBUG - 2012-04-07 03:16:45 --> Helper loaded: form_helper
+DEBUG - 2012-04-07 03:16:45 --> ermex/listado	
+DEBUG - 2012-04-07 03:16:45 --> File loaded: application/views/templates/header.php
+DEBUG - 2012-04-07 03:16:45 --> File loaded: application/views/pages/listado.php
+DEBUG - 2012-04-07 03:16:45 --> File loaded: application/views/templates/footer.php
+DEBUG - 2012-04-07 03:16:45 --> Final output sent to browser
+DEBUG - 2012-04-07 03:16:45 --> Total execution time: 0.0159
+DEBUG - 2012-04-07 03:20:07 --> Config Class Initialized
+DEBUG - 2012-04-07 03:20:07 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:20:07 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:20:07 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:20:07 --> URI Class Initialized
+DEBUG - 2012-04-07 03:20:07 --> Router Class Initialized
+DEBUG - 2012-04-07 03:20:07 --> Output Class Initialized
+DEBUG - 2012-04-07 03:20:07 --> Security Class Initialized
+DEBUG - 2012-04-07 03:20:07 --> Input Class Initialized
+DEBUG - 2012-04-07 03:20:07 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:20:07 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:20:07 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:20:07 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:20:07 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:20:07 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:20:07 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:20:07 --> CRSF cookie Set
+DEBUG - 2012-04-07 03:20:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-04-07 03:20:07 --> Language Class Initialized
+DEBUG - 2012-04-07 03:20:07 --> Loader Class Initialized
+DEBUG - 2012-04-07 03:20:07 --> Controller Class Initialized
+DEBUG - 2012-04-07 03:20:07 --> Model Class Initialized
+DEBUG - 2012-04-07 03:20:07 --> Model Class Initialized
+DEBUG - 2012-04-07 03:20:07 --> Database Driver Class Initialized
+DEBUG - 2012-04-07 03:20:07 --> Session Class Initialized
+DEBUG - 2012-04-07 03:20:07 --> Helper loaded: string_helper
+DEBUG - 2012-04-07 03:20:07 --> Encrypt Class Initialized
+DEBUG - 2012-04-07 03:20:07 --> Session routines successfully run
+DEBUG - 2012-04-07 03:20:07 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2012-04-07 03:20:07 --> Helper loaded: url_helper
+DEBUG - 2012-04-07 03:20:07 --> Helper loaded: form_helper
+DEBUG - 2012-04-07 03:20:07 --> ermex/listado	
+DEBUG - 2012-04-07 03:20:07 --> File loaded: application/views/templates/header.php
+DEBUG - 2012-04-07 03:21:02 --> Config Class Initialized
+DEBUG - 2012-04-07 03:21:02 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:21:02 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:21:02 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:21:02 --> URI Class Initialized
+DEBUG - 2012-04-07 03:21:02 --> Router Class Initialized
+DEBUG - 2012-04-07 03:21:02 --> Output Class Initialized
+DEBUG - 2012-04-07 03:21:02 --> Security Class Initialized
+DEBUG - 2012-04-07 03:21:02 --> Input Class Initialized
+DEBUG - 2012-04-07 03:21:02 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:21:02 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:21:02 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:21:02 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:21:02 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:21:02 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:21:02 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:21:02 --> CRSF cookie Set
+DEBUG - 2012-04-07 03:21:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-04-07 03:21:02 --> Language Class Initialized
+DEBUG - 2012-04-07 03:21:02 --> Loader Class Initialized
+DEBUG - 2012-04-07 03:21:02 --> Controller Class Initialized
+DEBUG - 2012-04-07 03:21:02 --> Model Class Initialized
+DEBUG - 2012-04-07 03:21:02 --> Model Class Initialized
+DEBUG - 2012-04-07 03:21:02 --> Database Driver Class Initialized
+DEBUG - 2012-04-07 03:21:02 --> Session Class Initialized
+DEBUG - 2012-04-07 03:21:02 --> Helper loaded: string_helper
+DEBUG - 2012-04-07 03:21:02 --> Encrypt Class Initialized
+DEBUG - 2012-04-07 03:21:02 --> Session routines successfully run
+DEBUG - 2012-04-07 03:21:02 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2012-04-07 03:21:02 --> Helper loaded: url_helper
+DEBUG - 2012-04-07 03:21:02 --> Helper loaded: form_helper
+DEBUG - 2012-04-07 03:21:02 --> ermex/listado	
+DEBUG - 2012-04-07 03:21:02 --> File loaded: application/views/templates/header.php
+DEBUG - 2012-04-07 03:21:02 --> File loaded: application/views/pages/listado.php
+DEBUG - 2012-04-07 03:21:02 --> File loaded: application/views/templates/footer.php
+DEBUG - 2012-04-07 03:21:02 --> Final output sent to browser
+DEBUG - 2012-04-07 03:21:02 --> Total execution time: 0.0156
+DEBUG - 2012-04-07 03:22:52 --> Config Class Initialized
+DEBUG - 2012-04-07 03:22:52 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:22:52 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:22:52 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:22:52 --> URI Class Initialized
+DEBUG - 2012-04-07 03:22:52 --> Router Class Initialized
+DEBUG - 2012-04-07 03:22:52 --> Output Class Initialized
+DEBUG - 2012-04-07 03:22:52 --> Security Class Initialized
+DEBUG - 2012-04-07 03:22:52 --> Input Class Initialized
+DEBUG - 2012-04-07 03:22:52 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:22:52 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:22:52 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:22:52 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:22:52 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:22:52 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:22:52 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:22:52 --> CRSF cookie Set
+DEBUG - 2012-04-07 03:22:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-04-07 03:22:52 --> Language Class Initialized
+DEBUG - 2012-04-07 03:22:52 --> Loader Class Initialized
+DEBUG - 2012-04-07 03:22:52 --> Controller Class Initialized
+DEBUG - 2012-04-07 03:22:52 --> Model Class Initialized
+DEBUG - 2012-04-07 03:22:52 --> Model Class Initialized
+DEBUG - 2012-04-07 03:22:52 --> Database Driver Class Initialized
+DEBUG - 2012-04-07 03:22:52 --> Session Class Initialized
+DEBUG - 2012-04-07 03:22:52 --> Helper loaded: string_helper
+DEBUG - 2012-04-07 03:22:52 --> Encrypt Class Initialized
+DEBUG - 2012-04-07 03:22:52 --> Session routines successfully run
+DEBUG - 2012-04-07 03:22:52 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2012-04-07 03:22:52 --> Helper loaded: url_helper
+DEBUG - 2012-04-07 03:22:52 --> Helper loaded: form_helper
+DEBUG - 2012-04-07 03:22:52 --> ermex/listado	
+DEBUG - 2012-04-07 03:22:52 --> DB Transaction Failure
+ERROR - 2012-04-07 03:22:52 --> Query error: Unknown column 'users.idusers' in 'on clause'
+DEBUG - 2012-04-07 03:22:52 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2012-04-07 03:23:02 --> Config Class Initialized
+DEBUG - 2012-04-07 03:23:02 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:23:02 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:23:02 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:23:02 --> URI Class Initialized
+DEBUG - 2012-04-07 03:23:02 --> Router Class Initialized
+DEBUG - 2012-04-07 03:23:02 --> Output Class Initialized
+DEBUG - 2012-04-07 03:23:02 --> Security Class Initialized
+DEBUG - 2012-04-07 03:23:02 --> Input Class Initialized
+DEBUG - 2012-04-07 03:23:02 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:23:02 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:23:02 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:23:02 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:23:02 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:23:02 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:23:02 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:23:02 --> CRSF cookie Set
+DEBUG - 2012-04-07 03:23:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-04-07 03:23:02 --> Language Class Initialized
+DEBUG - 2012-04-07 03:23:02 --> Loader Class Initialized
+DEBUG - 2012-04-07 03:23:02 --> Controller Class Initialized
+DEBUG - 2012-04-07 03:23:02 --> Model Class Initialized
+DEBUG - 2012-04-07 03:23:02 --> Model Class Initialized
+DEBUG - 2012-04-07 03:23:02 --> Database Driver Class Initialized
+DEBUG - 2012-04-07 03:23:02 --> Session Class Initialized
+DEBUG - 2012-04-07 03:23:02 --> Helper loaded: string_helper
+DEBUG - 2012-04-07 03:23:02 --> Encrypt Class Initialized
+DEBUG - 2012-04-07 03:23:02 --> Session routines successfully run
+DEBUG - 2012-04-07 03:23:02 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2012-04-07 03:23:02 --> Helper loaded: url_helper
+DEBUG - 2012-04-07 03:23:02 --> Helper loaded: form_helper
+DEBUG - 2012-04-07 03:23:02 --> ermex/listado	
+DEBUG - 2012-04-07 03:23:02 --> File loaded: application/views/templates/header.php
+DEBUG - 2012-04-07 03:23:02 --> File loaded: application/views/pages/listado.php
+DEBUG - 2012-04-07 03:23:02 --> File loaded: application/views/templates/footer.php
+DEBUG - 2012-04-07 03:23:02 --> Final output sent to browser
+DEBUG - 2012-04-07 03:23:02 --> Total execution time: 0.0339
+DEBUG - 2012-04-07 03:23:41 --> Config Class Initialized
+DEBUG - 2012-04-07 03:23:41 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:23:41 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:23:41 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:23:41 --> URI Class Initialized
+DEBUG - 2012-04-07 03:23:41 --> Router Class Initialized
+DEBUG - 2012-04-07 03:23:41 --> Output Class Initialized
+DEBUG - 2012-04-07 03:23:41 --> Security Class Initialized
+DEBUG - 2012-04-07 03:23:41 --> Input Class Initialized
+DEBUG - 2012-04-07 03:23:41 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:23:41 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:23:41 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:23:41 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:23:41 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:23:41 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:23:41 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:23:41 --> CRSF cookie Set
+DEBUG - 2012-04-07 03:23:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-04-07 03:23:41 --> Language Class Initialized
+DEBUG - 2012-04-07 03:23:41 --> Loader Class Initialized
+DEBUG - 2012-04-07 03:23:41 --> Controller Class Initialized
+DEBUG - 2012-04-07 03:23:41 --> Model Class Initialized
+DEBUG - 2012-04-07 03:23:41 --> Model Class Initialized
+DEBUG - 2012-04-07 03:23:41 --> Database Driver Class Initialized
+DEBUG - 2012-04-07 03:23:41 --> Session Class Initialized
+DEBUG - 2012-04-07 03:23:41 --> Helper loaded: string_helper
+DEBUG - 2012-04-07 03:23:41 --> Encrypt Class Initialized
+DEBUG - 2012-04-07 03:23:41 --> Session routines successfully run
+DEBUG - 2012-04-07 03:23:41 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2012-04-07 03:23:41 --> Helper loaded: url_helper
+DEBUG - 2012-04-07 03:23:41 --> Helper loaded: form_helper
+DEBUG - 2012-04-07 03:23:41 --> ermex/listado	
+DEBUG - 2012-04-07 03:23:41 --> File loaded: application/views/templates/header.php
+DEBUG - 2012-04-07 03:23:52 --> Config Class Initialized
+DEBUG - 2012-04-07 03:23:52 --> Hooks Class Initialized
+DEBUG - 2012-04-07 03:23:52 --> Utf8 Class Initialized
+DEBUG - 2012-04-07 03:23:52 --> UTF-8 Support Enabled
+DEBUG - 2012-04-07 03:23:52 --> URI Class Initialized
+DEBUG - 2012-04-07 03:23:52 --> Router Class Initialized
+DEBUG - 2012-04-07 03:23:52 --> Output Class Initialized
+DEBUG - 2012-04-07 03:23:52 --> Security Class Initialized
+DEBUG - 2012-04-07 03:23:52 --> Input Class Initialized
+DEBUG - 2012-04-07 03:23:52 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:23:52 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:23:52 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:23:52 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:23:52 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:23:52 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:23:52 --> XSS Filtering completed
+DEBUG - 2012-04-07 03:23:52 --> CRSF cookie Set
+DEBUG - 2012-04-07 03:23:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-04-07 03:23:52 --> Language Class Initialized
+DEBUG - 2012-04-07 03:23:52 --> Loader Class Initialized
+DEBUG - 2012-04-07 03:23:52 --> Controller Class Initialized
+DEBUG - 2012-04-07 03:23:52 --> Model Class Initialized
+DEBUG - 2012-04-07 03:23:52 --> Model Class Initialized
+DEBUG - 2012-04-07 03:23:52 --> Database Driver Class Initialized
+DEBUG - 2012-04-07 03:23:52 --> Session Class Initialized
+DEBUG - 2012-04-07 03:23:52 --> Helper loaded: string_helper
+DEBUG - 2012-04-07 03:23:52 --> Encrypt Class Initialized
+DEBUG - 2012-04-07 03:23:52 --> Session routines successfully run
+DEBUG - 2012-04-07 03:23:52 --> Encrypt class already loaded. Second attempt ignored.
+DEBUG - 2012-04-07 03:23:52 --> Helper loaded: url_helper
+DEBUG - 2012-04-07 03:23:52 --> Helper loaded: form_helper
+DEBUG - 2012-04-07 03:23:52 --> ermex/listado	
+DEBUG - 2012-04-07 03:23:52 --> File loaded: application/views/templates/header.php
+DEBUG - 2012-04-07 03:23:52 --> File loaded: application/views/pages/listado.php
+DEBUG - 2012-04-07 03:23:52 --> File loaded: application/views/templates/footer.php
+DEBUG - 2012-04-07 03:23:52 --> Final output sent to browser
+DEBUG - 2012-04-07 03:23:52 --> Total execution time: 0.0159
