@@ -15,7 +15,7 @@
             <input type="hidden" id="locAddr" name="locAddr" value="<?=base64_encode($locaddr)?>" />
             
             <label><strong>*Domicilio:</strong></label>
-            <input type="text" name="addr" id="addr" value="<?=$locaddr?>" class="span6"/>
+            <textarea name="addr" id="addr" class="span6"/><?=$locaddr?></textarea>
             <label><strong>*Nombre o Referencia:</strong></label>
             <input type="text" name="name" id="name" value="" class="span3"/> 
             <label><strong>*Tipo:</strong></label>

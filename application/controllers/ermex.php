@@ -36,8 +36,20 @@ class ermex extends CI_Controller{
 				$this->mailto_user("nuevo usuario: ".$email,"ERmx: nuevo usuario",ADMIN_EMAIL);
 				
 				//go to login.
-				redirect('?c=true#nc', 'location', 302);
-				exit;
+				//redirect('?c=true#nc', 'location', 302);
+				//exit;
+				$sesion=$this->app_model->login($email,$password);
+				
+				if(isset($sesion['userid']) && $sesion['userid']>0 ){
+					$this->session->set_userdata('USERID', $this->encrypt->encode($sesion['userid']));
+					$this->session->set_userdata('USERTYPE', $sesion['type']);
+					$this->session->set_userdata('USERNAME', $this->encrypt->encode($sesion['username']));
+					log_message('info',"USER LOGIN: ".$sesion['username']);
+					//presenta la vista.
+					redirect('/mainmenu', 'location', 302);
+				}else{
+					redirect('?c=true#nc', 'location', 302);	
+				}
 				
 			}else{
 				redirect('/nuevacuenta?userexist=t', 'location', 302);	
