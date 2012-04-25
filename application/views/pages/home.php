@@ -40,7 +40,7 @@
       
       <div class="row-fluid">
       <div class="span4 offset1">
-      <div class="alert alert-success separaForma">Llevamos: <?=$stats_er?> salas  y <?=$stats_usr?> personas</div>
+      <div class="alert alert-success separaForma">Llevamos: <a href="<?=base_url()?>index.php/ermex/listado"><?=$stats_er?> salas</a> y <?=$stats_usr?> personas</div>
       </div>
       <div class="span4 offset1">
       <div class="alert alert-success separaForma">Ayúdanos a mejorar: <a href="https://twitter.com/ermx1" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @ermx1</a>
