@@ -16,6 +16,7 @@
             <br />
             <button type="submit" class="btn btn-primary" id="registry" name="registry" value="true">Registrar</button>
             <a class="btn btn-warning" id="back" href="<?=base_url()?>index.php/mainmenu">Regresar</a>
+        	<br />
         	<p>Coloca el marcador en la posición más exacta posible</p>
         </form>
       </div>
