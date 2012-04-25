@@ -60,7 +60,7 @@
 				
 				});
             </script>
-            <small>Tu información será manejada con la más estricta confidencialidad. El objectivo de este servicio es ayudar. No tenemos fines de lucro.</small>
+            <small>Tu información será manejada con la más estricta confidencialidad. El objetivo de este servicio es ayudar. No tenemos fines de lucro.</small>
           </div>
         </div>
         
