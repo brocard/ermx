@@ -272,7 +272,7 @@ class ermex extends CI_Controller{
 		}*/
 	
 		//$data['sessiondata']=$this->session->all_userdata();
-		//$data['username']=$this->encrypt->decode($data['sessiondata']['USERNAME']);
+		$data['username']=""; //$this->encrypt->decode($data['sessiondata']['USERNAME']);
 	
 		$listado=$resultId=$this->app_model->fullList();
 		
