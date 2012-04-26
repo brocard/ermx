@@ -264,15 +264,15 @@ class ermex extends CI_Controller{
 	function listado(){
 		log_message('debug','ermex/listado	');
 		//valida sesion.
-		$validsession=$this->session->userdata('USERID');
-		if(empty($validsession)){
+		//$validsession=$this->session->userdata('USERID');
+		/*if(empty($validsession)){
 			log_message('error','*No se encontró sesión');
 			redirect('/loginerror', 'location', 302);
 			die();	
-		}
+		}*/
 	
-		$data['sessiondata']=$this->session->all_userdata();
-		$data['username']=$this->encrypt->decode($data['sessiondata']['USERNAME']);
+		//$data['sessiondata']=$this->session->all_userdata();
+		//$data['username']=$this->encrypt->decode($data['sessiondata']['USERNAME']);
 	
 		$listado=$resultId=$this->app_model->fullList();
 		
