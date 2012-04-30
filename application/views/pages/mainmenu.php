@@ -12,7 +12,7 @@
 			echo form_open('ermex/mapLocator', $attributes);
 			?>
             <label><strong>Domicilio:</strong></label> 
-            <input name="address" type="text" class="span6" value="">
+            <input name="address" type="text" class="span6" value="" placeholder="Captura dirección o presiona Cerca de mí">
             <button type="submit" class="btn btn-info" id="findaddr" name="findaddr" value="true">Buscar domicilio</button>
             <button type="submit" class="btn btn-info" id="findme" name="findme" value="true">Cerca de mí</button> 
             <input type="hidden" name="mylocLat" id="mylocLat" value=''>
